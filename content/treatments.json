@@ -33,6 +33,14 @@
       {
         "question": "Cosa porto alla prima visita?",
         "answer": "Porta eventuali radiografie già disponibili e l’elenco dei farmaci assunti. Non è necessario eseguire nuovi esami senza un’indicazione del professionista."
+      },
+      {
+        "question": "Si discutono anche le alternative alla protesi proposta?",
+        "answer": "Durante la valutazione vengono illustrate le possibilità pertinenti alla situazione individuale. Puoi chiedere chiarimenti su alternative, fasi e mantenimento prima di concordare il piano."
+      },
+      {
+        "question": "Riceverò un preventivo prima di iniziare?",
+        "answer": "Il piano di cura e il preventivo individuale vengono spiegati prima di concordare il trattamento. Eventuali cure preliminari vengono discusse durante la valutazione."
       }
     ]
   },
@@ -70,6 +78,14 @@
       {
         "question": "Come viene definito il costo?",
         "answer": "Il preventivo tiene conto delle prestazioni necessarie, delle fasi chirurgiche e protesiche e degli eventuali trattamenti preliminari. Viene illustrato dopo la valutazione clinica."
+      },
+      {
+        "question": "La prima visita comprende già l’intervento?",
+        "answer": "Il primo appuntamento è dedicato alla valutazione. Le eventuali fasi chirurgiche e protesiche vengono pianificate e concordate dopo gli accertamenti necessari."
+      },
+      {
+        "question": "Come vengono organizzati i controlli?",
+        "answer": "Modalità e frequenza dei controlli vengono definite dal professionista in base alla situazione individuale. La segreteria concorda gli appuntamenti previsti nel percorso."
       }
     ]
   },
@@ -107,6 +123,14 @@
       {
         "question": "Servono controlli dopo il trattamento?",
         "answer": "Il mantenimento e i controlli vengono concordati con il professionista. La stabilità dell’allineamento richiede attenzione anche dopo la fase attiva."
+      },
+      {
+        "question": "Posso richiedere una visita anche senza sapere quale apparecchio scegliere?",
+        "answer": "Sì. Puoi contattare la segreteria per una valutazione ortodontica. Il professionista discuterà le opzioni pertinenti al caso, comprese le alternative agli allineatori."
+      },
+      {
+        "question": "Posso conoscere il numero degli allineatori prima della visita?",
+        "answer": "Il numero e le fasi del percorso vengono discussi dopo la valutazione e la pianificazione individuale. Il sito non permette di definire un piano personale."
       }
     ]
   },
@@ -144,6 +168,14 @@
       {
         "question": "Si possono garantire risultati o assenza di rischi?",
         "answer": "No. Ogni trattamento presenta limiti e possibili effetti indesiderati. Le informazioni sul caso individuale vengono discusse prima di decidere."
+      },
+      {
+        "question": "La valutazione mi impegna a effettuare un trattamento?",
+        "answer": "Il colloquio serve a ricevere informazioni e discutere la richiesta. Un eventuale trattamento viene concordato solo dopo la valutazione, compresa la possibilità di non procedere."
+      },
+      {
+        "question": "Posso inviare foto o referti via email per scegliere il trattamento?",
+        "answer": "Per fissare il colloquio contatta la segreteria senza allegare fotografie cliniche o referti. Le informazioni cliniche vanno condivise direttamente con il professionista."
       }
     ]
   }

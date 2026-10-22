@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { Outlet } from "react-router";
 import { useSectionReveal } from "@/hooks/useSectionReveal.js";
 import { useSmoothCardScroll } from "@/hooks/useSmoothCardScroll.js";
+import DirectionsSection from "@/features/appointments/DirectionsSection.jsx";
 import ContactSection from "@/features/appointments/ContactSection.jsx";
 import LegalDialog from "@/features/legal/LegalDialog.jsx";
 import SiteHeader from "./SiteHeader.jsx";
@@ -23,6 +24,7 @@ export default function SiteLayout() {
       <main ref={mainRef} id="contenuto" tabIndex={-1}>
         <Outlet />
         <SectionCards>
+          <DirectionsSection />
           <ContactSection />
         </SectionCards>
       </main>

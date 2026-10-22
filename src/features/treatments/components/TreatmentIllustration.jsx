@@ -1,3 +1,5 @@
+import { useIllustrationMotion } from "@/hooks/useIllustrationMotion.js";
+
 const Crown = () => (
   <>
     <path d="M149 182c-13-41 8-64 35-58 15 3 24 13 36 13s23-12 39-12c28-1 42 25 32 59l-19 74c-5 19-22 27-52 27s-47-8-52-27Z" />
@@ -15,16 +17,24 @@ const descriptions = {
   estetica: "Profilo del viso, illustrazione stilizzata",
 };
 
+const captions = {
+  protesi: "Rappresentazione schematica di una corona dentale.",
+  impianti: "La corona e il supporto implantare, rappresentati separatamente.",
+  allineatori: "Rappresentazione schematica di un allineatore rimovibile.",
+  estetica: "Profilo del viso con un dettaglio grafico in evidenza.",
+};
+
 export default function TreatmentIllustration({ variant }) {
+  const { ref, playing, disabled, toggle } = useIllustrationMotion(variant);
   return (
-    <figure className={`treatment-art treatment-art-${variant}`}>
+    <figure ref={ref} className={`treatment-art treatment-art-${variant}`}>
       <svg viewBox="0 0 440 440" role="img" aria-label={descriptions[variant]}>
         <circle className="art-orbit" cx="220" cy="220" r="168" />
         <g className="art-lines">
           {variant === "protesi" && (
             <>
               <g transform="translate(-22 -16) scale(1.1)">
-                <Crown />
+                <g className="art-motion"><Crown /></g>
               </g>
               <path
                 className="art-accent"
@@ -35,7 +45,7 @@ export default function TreatmentIllustration({ variant }) {
           {variant === "impianti" && (
             <>
               <g transform="translate(33 -10) scale(.85)">
-                <Crown />
+                <g className="art-motion"><Crown /></g>
               </g>
               <path d="M203 244v15h34v-15M198 270h44l-8 71c-2 15-26 15-28 0Z" />
               <path
@@ -45,7 +55,7 @@ export default function TreatmentIllustration({ variant }) {
             </>
           )}
           {variant === "allineatori" && (
-            <>
+            <g className="art-motion">
               <path d="M111 164c-17 19-24 47-24 70 0 58 59 102 133 102s133-44 133-102c0-23-7-51-24-70l-29 13c11 17 16 33 16 49 0 38-43 67-96 67s-96-29-96-67c0-16 5-32 16-49Z" />
               <path
                 className="art-accent"
@@ -55,7 +65,7 @@ export default function TreatmentIllustration({ variant }) {
                 d="m120 264-16 20m42 0-10 29m43-20-5 36m46-36v43m41-43 5 36m28-45 10 29m16-49 16 20"
                 className="art-accent"
               />
-            </>
+            </g>
           )}
           {variant === "estetica" && (
             <>
@@ -64,12 +74,16 @@ export default function TreatmentIllustration({ variant }) {
                 className="art-accent"
                 d="M247 269c9 2 17 1 24-2M246 190l15 2"
               />
-              <circle className="art-accent" cx="209" cy="228" r="30" />
+              <g className="art-motion"><circle className="art-accent" cx="209" cy="228" r="30" /></g>
             </>
           )}
         </g>
       </svg>
-      <figcaption>Illustrazione schematica</figcaption>
+      <figcaption>{captions[variant]}<span>Illustrazione indicativa, non rappresenta un risultato clinico.</span></figcaption>
+      <button className="art-toggle" type="button" onClick={toggle} disabled={disabled} aria-pressed={playing}>
+        {playing ? "Ferma animazione" : "Anima illustrazione"}
+      </button>
+      {disabled && <p className="art-motion-note">Versione statica: movimento ridotto o animazione non disponibile.</p>}
     </figure>
   );
 }

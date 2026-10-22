@@ -41,6 +41,9 @@ export default function ContactSection() {
           Indicazioni su Google Maps <Arrow />
           <span className="sr-only"> (si apre in una nuova scheda)</span>
         </a>
+        <a className="directions-anchor" href="#come-raggiungerci">
+          Auto, mezzi pubblici e percorso a piedi <Arrow />
+        </a>
         <h3>Orari della segreteria</h3>
         <dl className="hours">
           {studio.hours.map(({ day, slots }) => (

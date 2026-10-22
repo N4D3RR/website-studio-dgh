@@ -11,10 +11,10 @@ export default function TreatmentPage({ treatment }) {
       <TreatmentSteps sections={treatment.sections} />
       <FaqSection
         id="treatment-faq-title"
-        eyebrow="Prima  della visita"
+        eyebrow={treatment.title}
         title={
           <>
-            Le domande{" "}
+            Domande sulla cura{" "}
             <br />
             più frequenti.
           </>

@@ -44,6 +44,9 @@ export default function SiteHeader() {
         <Link to={getHomeHref(pathname, "#cure")} onClick={close}>
           Le prestazioni
         </Link>
+        <Link to="#come-raggiungerci" onClick={close}>
+          Come raggiungerci
+        </Link>
         <Link to="#contatti" onClick={close}>
           Contatti
         </Link>
