@@ -19,7 +19,7 @@ export default function SiteLayout() {
         Vai al contenuto
       </a>
       <SiteHeader />
-      <main ref={mainRef} id="contenuto" tabIndex={-1}>
+      <main ref={mainRef} className="site-main" id="contenuto" tabIndex={-1}>
         <Outlet />
         <SectionCards>
           <DirectionsSection />

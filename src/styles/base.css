@@ -25,6 +25,9 @@ html {
 body {
   margin: 0;
 }
+.site-main {
+  background: var(--paper);
+}
 a {
   color: inherit;
   text-decoration: none;
