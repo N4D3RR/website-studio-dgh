@@ -1,0 +1,150 @@
+[
+  {
+    "id": "protesi",
+    "path": "/protesi-dentale.html",
+    "title": "Protesi dentale",
+    "label": "Protesi",
+    "eyebrow": "Ricostruzione e riabilitazione · Padova",
+    "description": "Protesi dentale a Padova: corone, ponti e protesi su denti o impianti. Informazioni sul percorso di valutazione con il Dott. Deghaili.",
+    "intro": "Ricostruire denti compromessi o sostituire quelli mancanti richiede una valutazione della bocca nel suo insieme. La visita è il punto di partenza per discutere le diverse possibilità protesiche.",
+    "sections": [
+      {
+        "title": "Denti naturali e impianti",
+        "text": "Corone e ponti possono essere sostenuti da denti naturali o, quando indicato, da impianti. Esistono anche soluzioni rimovibili. La scelta dipende dai denti presenti, dai tessuti di supporto, dalla funzione masticatoria e dalle esigenze individuali."
+      },
+      {
+        "title": "Un piano spiegato prima di iniziare",
+        "text": "Il professionista illustra le alternative, le fasi di trattamento e il preventivo. La necessità di cure preliminari e gli eventuali accertamenti vengono definiti dopo la visita."
+      },
+      {
+        "title": "Igiene e controlli nel tempo",
+        "text": "Una riabilitazione protesica richiede igiene domiciliare e controlli periodici. Modalità e frequenza vengono concordate in relazione alla situazione clinica."
+      }
+    ],
+    "faq": [
+      {
+        "question": "È sempre necessario un impianto?",
+        "answer": "No. Le alternative possono comprendere protesi su denti naturali, protesi rimovibili o soluzioni su impianti. La scelta richiede una valutazione clinica."
+      },
+      {
+        "question": "Quanto dura il percorso?",
+        "answer": "La durata dipende dalla situazione iniziale, dal tipo di protesi e dalle eventuali cure preliminari. Le fasi vengono illustrate nel piano individuale."
+      },
+      {
+        "question": "Cosa porto alla prima visita?",
+        "answer": "Porta eventuali radiografie già disponibili e l’elenco dei farmaci assunti. Non è necessario eseguire nuovi esami senza un’indicazione del professionista."
+      }
+    ]
+  },
+  {
+    "id": "impianti",
+    "path": "/implantologia.html",
+    "title": "Implantologia",
+    "label": "Impianti",
+    "eyebrow": "Sostituzione dei denti mancanti · Padova",
+    "description": "Implantologia a Padova: valutazione, alternative, fasi chirurgiche e protesiche e controlli. Informazioni e appuntamenti presso lo Studio Deghaili.",
+    "intro": "Gli impianti sono supporti inseriti nell’osso per sostenere una riabilitazione protesica. La possibilità di utilizzarli viene valutata attraverso visita e accertamenti mirati.",
+    "sections": [
+      {
+        "title": "Prima, la valutazione",
+        "text": "Condizioni dell’osso e delle gengive, salute generale, terapie in corso e possibilità di mantenere una corretta igiene sono aspetti da considerare. L’impianto non è una soluzione indicata automaticamente per ogni persona."
+      },
+      {
+        "title": "Chirurgia e protesi, nello stesso piano",
+        "text": "Il percorso comprende la pianificazione chirurgica e quella della protesi. Il professionista spiega tempi, eventuali fasi provvisorie, alternative, rischi e limiti prima di concordare il trattamento."
+      },
+      {
+        "title": "Il mantenimento fa parte del percorso",
+        "text": "Dopo la riabilitazione sono necessari controlli e igiene professionale secondo le indicazioni cliniche. Anche gli impianti possono presentare complicanze e richiedono attenzione nel tempo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso sapere online se gli impianti sono adatti a me?",
+        "answer": "Il sito può fornire informazioni generali. Per valutare l’indicazione servono la visita e gli accertamenti ritenuti necessari dal professionista."
+      },
+      {
+        "question": "È possibile avere denti fissi subito?",
+        "answer": "Le modalità e i tempi di applicazione della protesi dipendono da specifiche condizioni cliniche. Il carico immediato non è indicato in tutti i casi e non può essere promesso prima della valutazione."
+      },
+      {
+        "question": "Come viene definito il costo?",
+        "answer": "Il preventivo tiene conto delle prestazioni necessarie, delle fasi chirurgiche e protesiche e degli eventuali trattamenti preliminari. Viene illustrato dopo la valutazione clinica."
+      }
+    ]
+  },
+  {
+    "id": "allineatori",
+    "path": "/allineatori.html",
+    "title": "Allineatori trasparenti",
+    "label": "Allineatori",
+    "eyebrow": "Ortodonzia con allineatori · Padova",
+    "description": "Allineatori trasparenti a Padova: valutazione ortodontica, alternative, pianificazione e controlli presso lo Studio Deghaili.",
+    "intro": "Gli allineatori trasparenti sono una delle possibilità per trattare l’allineamento dei denti. L’indicazione viene definita dopo la valutazione ortodontica, considerando anche le alternative.",
+    "sections": [
+      {
+        "title": "Una valutazione ortodontica",
+        "text": "La visita permette di esaminare posizione dei denti, rapporti tra le arcate e salute della bocca. Gli eventuali esami e le altre opzioni terapeutiche vengono discussi prima di iniziare."
+      },
+      {
+        "title": "Un trattamento da seguire ogni giorno",
+        "text": "Gli allineatori sono rimovibili e richiedono utilizzo e manutenzione secondo le indicazioni del professionista. La collaborazione della persona e i controlli fanno parte del percorso."
+      },
+      {
+        "title": "Pianificazione e verifiche",
+        "text": "Il piano descrive gli obiettivi e le fasi previste. Le rappresentazioni digitali, quando utilizzate, sono strumenti di pianificazione e non garantiscono un risultato identico alla simulazione."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Gli allineatori sono adatti a tutti?",
+        "answer": "No. La scelta dipende dal problema ortodontico e dalle condizioni della bocca. In alcuni casi possono essere indicati altri apparecchi o percorsi."
+      },
+      {
+        "question": "Quanto dura il trattamento?",
+        "answer": "Durata e numero degli allineatori dipendono dalla complessità del caso e dalla risposta al trattamento. Una stima viene discussa durante la pianificazione."
+      },
+      {
+        "question": "Servono controlli dopo il trattamento?",
+        "answer": "Il mantenimento e i controlli vengono concordati con il professionista. La stabilità dell’allineamento richiede attenzione anche dopo la fase attiva."
+      }
+    ]
+  },
+  {
+    "id": "estetica",
+    "path": "/medicina-estetica.html",
+    "title": "Medicina estetica del viso",
+    "label": "Medicina estetica",
+    "eyebrow": "Valutazione e percorso individuale · Padova",
+    "description": "Medicina estetica del viso presso lo Studio Deghaili a Padova. Valutazione preliminare, informazioni sui percorsi e appuntamenti.",
+    "intro": "Lo studio svolge attività di medicina estetica del viso. Un colloquio e una valutazione clinica permettono di discutere le richieste relative al viso e alla cute, distinguendo ciò che è indicato dalle aspettative che un trattamento non può soddisfare.",
+    "sections": [
+      {
+        "title": "Il colloquio prima del trattamento",
+        "text": "Storia clinica, farmaci, condizioni della cute e trattamenti precedenti sono elementi da valutare. Il professionista discute le possibilità pertinenti al caso, compresa l’eventualità di non procedere."
+      },
+      {
+        "title": "Informazioni per una scelta consapevole",
+        "text": "Prima di un eventuale trattamento vengono spiegati finalità, modalità, possibili effetti indesiderati, controindicazioni e alternative. L’indicazione non viene stabilita attraverso il sito."
+      },
+      {
+        "title": "Indicazioni e controlli",
+        "text": "Preparazione, precauzioni successive, tempi e necessità di controlli dipendono dalla prestazione e dalla situazione individuale. Queste informazioni vengono fornite durante la valutazione."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso prenotare direttamente un trattamento?",
+        "answer": "Il primo appuntamento serve a valutare la situazione e l’appropriatezza della richiesta. La decisione su un eventuale trattamento viene presa dopo il colloquio clinico."
+      },
+      {
+        "question": "Quali informazioni devo portare?",
+        "answer": "Porta l’elenco dei farmaci, le informazioni sulle allergie e sui trattamenti precedenti. Condividi questi dati direttamente con il professionista, senza inserirli nelle richieste email."
+      },
+      {
+        "question": "Si possono garantire risultati o assenza di rischi?",
+        "answer": "No. Ogni trattamento presenta limiti e possibili effetti indesiderati. Le informazioni sul caso individuale vengono discusse prima di decidere."
+      }
+    ]
+  }
+]

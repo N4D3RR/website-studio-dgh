@@ -1,0 +1,83 @@
+.contact {
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background: #30338f;
+}
+.contact h2 {
+  margin-bottom: 32px;
+}
+.contact-phone {
+  display: block;
+  font-size: clamp(32px, 3.8vw, 58px);
+  letter-spacing: -0.035em;
+  width: max-content;
+  max-width: 100%;
+}
+.contact-phone .arrow {
+  font-size: 0.5em;
+  margin-left: 10px;
+}
+.email-link {
+  display: block;
+  font-size: 16px;
+  color: #ededf6;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+.email-link .arrow {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.contact-heading > p:last-child {
+  color: var(--muted);
+  font-size: 12px;
+  max-width: 360px;
+  margin-top: 25px;
+}
+.contact-information {
+  padding-top: 45px;
+}
+.contact-information address {
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.map-link {
+  display: inline-flex;
+  gap: 24px;
+  margin: 18px 0 40px;
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+.contact-information h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.hours {
+  margin: 20px 0 0;
+}
+.hours > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--line);
+  padding: 12px 0;
+  font-size: 12px;
+}
+.hours dd {
+  margin: 0;
+  text-align: right;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  color: var(--muted);
+}
+.hours dt {
+  font-weight: 400;
+}

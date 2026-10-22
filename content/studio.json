@@ -1,0 +1,113 @@
+{
+  "name": "Studio Dentistico Dott. Deghaili",
+  "address": "Via Istituto Tecnico d’Agraria, 15/C",
+  "city": "Padova",
+  "postalCode": "35143",
+  "province": "PD",
+  "phone": "049 624940",
+  "phoneHref": "tel:+39049624940",
+  "email": "dottdeghaili@gmail.com",
+  "mapsUrl": "https://maps.app.goo.gl/oNsEuu7Stxo4oyaJ6",
+  "professional": {
+    "name": "Deghaili Abdul Ghani",
+    "title": "Odontoiatra",
+    "registerNumber": "138"
+  },
+  "hours": [
+    {
+      "day": "Lunedì",
+      "slots": ["09:30–13:00", "15:30–20:00"]
+    },
+    {
+      "day": "Martedì",
+      "slots": ["12:30–20:00"]
+    },
+    {
+      "day": "Mercoledì",
+      "slots": ["09:30–13:00", "15:30–20:00"]
+    },
+    {
+      "day": "Giovedì",
+      "slots": ["09:30–13:00", "15:30–20:00"]
+    },
+    {
+      "day": "Venerdì",
+      "slots": ["09:30–17:00"]
+    },
+    {
+      "day": "Sabato e domenica",
+      "slots": []
+    }
+  ],
+  "services": [
+    {
+      "id": "protesi",
+      "title": "Protesi dentale",
+      "short": "Corone, ponti e protesi su denti o impianti",
+      "description": "La protesi dentale riguarda la ricostruzione dei denti compromessi e la sostituzione di quelli mancanti. Il piano può prevedere corone e ponti su denti naturali, protesi su impianti oppure protesi rimovibili.",
+      "detail": "La scelta tra le diverse soluzioni tiene conto delle condizioni cliniche, della funzione masticatoria e della possibilità di mantenere l’igiene e i controlli nel tempo."
+    },
+    {
+      "id": "chirurgia",
+      "title": "Implantologia",
+      "short": "Sostituzione dei denti mancanti su impianti",
+      "description": "Gli impianti dentali sono supporti inseriti nell’osso per sostenere corone, ponti o altre riabilitazioni protesiche. La loro indicazione dipende dalle condizioni della bocca, dell’osso e dalla salute generale.",
+      "detail": "Visita e accertamenti permettono di valutare fattibilità, alternative, fasi chirurgiche e protesiche, rischi e controlli nel tempo."
+    },
+    {
+      "id": "conservativa",
+      "title": "Conservativa",
+      "short": "Cura della carie e ricostruzioni",
+      "description": "La conservativa comprende il trattamento delle lesioni cariose e la ricostruzione delle parti del dente danneggiate. La scelta della prestazione dipende dalla visita e dagli eventuali accertamenti.",
+      "detail": "Otturazioni in composito e ricostruzioni dentali."
+    },
+    {
+      "id": "ortodonzia",
+      "title": "Ortodonzia",
+      "short": "Apparecchi e allineatori",
+      "description": "I trattamenti ortodontici riguardano l’allineamento dei denti e i rapporti tra le arcate. La scelta tra apparecchi fissi e allineatori trasparenti richiede una valutazione individuale.",
+      "detail": "Indicazioni, alternative e durata vengono discusse in visita."
+    }
+  ],
+  "otherServices": [
+    "Visita e diagnosi",
+    "Igiene e prevenzione",
+    "Endodonzia",
+    "Parodontologia",
+    "Chirurgia orale",
+    "Sbiancamento dentale",
+    "Diagnostica radiologica"
+  ],
+  "steps": [
+    {
+      "title": "La prima visita",
+      "text": "Colloquio, raccolta delle informazioni necessarie e valutazione odontoiatrica. Gli eventuali accertamenti vengono indicati in base al caso."
+    },
+    {
+      "title": "Il piano di cura",
+      "text": "Spiegazione delle possibilità di trattamento, delle alternative, delle fasi e del preventivo individuale."
+    },
+    {
+      "title": "Trattamento e controlli",
+      "text": "Il percorso viene concordato con il paziente. I controlli successivi sono definiti in base alle necessità cliniche."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Come posso fissare un appuntamento?",
+      "answer": "Puoi contattare la segreteria telefonicamente o via email. La data e l’orario della visita vengono concordati direttamente con lo studio."
+    },
+    {
+      "question": "Come viene definito il costo delle cure?",
+      "answer": "Il costo dipende dalle prestazioni indicate dopo la valutazione clinica. Il piano di cura e il relativo preventivo vengono illustrati prima di concordare il trattamento."
+    },
+    {
+      "question": "Quali documenti porto alla prima visita?",
+      "answer": "Porta eventuali esami o radiografie già disponibili e le informazioni sulle terapie farmacologiche in corso. La segreteria può fornire indicazioni sui documenti necessari."
+    },
+    {
+      "question": "Lo studio segue anche i bambini?",
+      "answer": "Lo studio offre visite e prestazioni odontoiatriche anche per bambini. Indicazioni e modalità vengono valutate in relazione all’età e alle condizioni cliniche."
+    }
+  ]
+}

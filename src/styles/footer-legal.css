@@ -1,0 +1,85 @@
+.site-footer {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 28px;
+  border-top: 1px solid var(--line);
+}
+.footer-identity {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.footer-mark {
+  display: block;
+  width: 62px;
+  height: 70px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.footer-identity p {
+  font-size: 10px;
+  color: var(--muted);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 10px;
+}
+.footer-links button {
+  font-size: inherit;
+  background: none;
+  padding: 0;
+}
+.footer-note {
+  width: 100%;
+  font-size: 9px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.legal-dialog {
+  --muted: var(--navy);
+  border: 1px solid var(--navy);
+  background: var(--paper);
+  color: var(--navy);
+  max-width: 660px;
+  width: calc(100% - 36px);
+  padding: 45px;
+  max-height: 85dvh;
+  overflow: auto;
+}
+.legal-dialog::backdrop {
+  background: #202364c9;
+  backdrop-filter: blur(5px);
+}
+.legal-dialog h2 {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+.legal-dialog p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+.legal-dialog p a {
+  text-decoration: underline;
+}
+.dialog-close {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-size: 32px;
+  background: none;
+}
+.dialog-done {
+  background: var(--navy);
+  color: var(--paper);
+  padding: 12px 20px;
+  margin-top: 15px;
+  display: flex;
+  gap: 22px;
+}
