@@ -22,26 +22,30 @@ export function useSectionReveal(ref) {
         for (const entry of entries) {
           if (!entry.isIntersecting) continue;
           observer.unobserve(entry.target);
-          // Non spostare una scheda già al centro dello schermo dopo un salto.
+          // I salti a una sezione non devono spostare il contenuto già in lettura.
           if (entry.boundingClientRect.top < window.innerHeight * 0.35)
             continue;
           const panel = entry.target.firstElementChild;
-          if (!panel) continue;
+          if (!panel || panel.contains(document.activeElement)) continue;
+          const distance = window.innerWidth <= 700 ? 28 : 48;
           const animation = panel.animate(
-            [{ transform: "translateY(56px)" }, { transform: "translateY(0)" }],
-            { duration: 750, easing: "cubic-bezier(.2,.75,.25,1)" },
+            [
+              { transform: `translateY(${distance}px)`, opacity: 0.15 },
+              { transform: "translateY(0)", opacity: 1 },
+            ],
+            { duration: 850, easing: "cubic-bezier(.2,.75,.25,1)" },
           );
           animations.add(animation);
           animation.onfinish = animation.oncancel = () =>
             animations.delete(animation);
         }
       },
-      { threshold: 0, rootMargin: "0px 0px -24px 0px" },
+      { threshold: 0, rootMargin: "0px 0px -40px 0px" },
     );
 
     for (const section of main.querySelectorAll(":scope > .section-frame")) {
-      // L'apertura conserva la posizione dei contenuti già visibili.
-      if (section.getBoundingClientRect().top >= window.innerHeight)
+      // Anima anche le schede parzialmente visibili nella parte bassa.
+      if (section.getBoundingClientRect().top >= window.innerHeight * 0.65)
         observer.observe(section);
     }
     const stop = () => {
