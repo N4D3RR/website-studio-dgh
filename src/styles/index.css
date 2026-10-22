@@ -6,6 +6,6 @@
 @import "./responsive.css";
 @import "./treatments.css";
 
-@import "./cards.css";
-
 @import "./directions.css";
+
+@import "./cards.css";
