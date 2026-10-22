@@ -34,8 +34,12 @@ export default function DirectionsSection() {
           {studio.address}<br />
           {studio.postalCode} {studio.city} ({studio.province})
         </address>
+        <div className="directions-parking">
+          <h3>Parcheggio privato</h3>
+          <p>Circa {studio.parking.approximateSpaces} posti auto.</p>
+        </div>
         <p>
-          Per informazioni sull’ingresso, sull’accesso allo studio o sulla sosta,
+          Per informazioni sull’ingresso o sull’accesso allo studio,
           contatta la segreteria prima della visita.
         </p>
         <a className="directions-phone" href={studio.phoneHref}>
@@ -59,6 +63,11 @@ export default function DirectionsSection() {
               <div>
                 <h3>{title}</h3>
                 <p>{text}</p>
+                {id === "driving" && (
+                  <p className="directions-parking-inline">
+                    Parcheggio privato: circa {studio.parking.approximateSpaces} posti auto.
+                  </p>
+                )}
                 <span className="directions-route-label">
                   Indicazioni su Google Maps <Arrow />
                   <span className="sr-only"> (si apre in una nuova scheda)</span>

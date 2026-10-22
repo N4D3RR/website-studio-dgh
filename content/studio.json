@@ -8,6 +8,10 @@
   "phoneHref": "tel:+39049624940",
   "email": "dottdeghaili@gmail.com",
   "mapsUrl": "https://maps.app.goo.gl/oNsEuu7Stxo4oyaJ6",
+  "parking": {
+    "type": "privato",
+    "approximateSpaces": 10
+  },
   "professional": {
     "name": "Deghaili Abdul Ghani",
     "title": "Odontoiatra",

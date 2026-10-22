@@ -50,3 +50,12 @@
   .directions { grid-template-columns: minmax(0, 1fr); gap: 35px; padding-block: 55px; }
   .directions-route { padding-block: 24px; }
 }
+
+.directions-parking {
+  margin-block: 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+}
+.directions-parking h3 { font-size: 20px; margin-bottom: 8px; }
+.directions-parking p { color: var(--muted); font-size: 14px; }
+.directions-route .directions-parking-inline { color: var(--paper); margin-top: 12px; }
