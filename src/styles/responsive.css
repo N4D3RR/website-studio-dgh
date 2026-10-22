@@ -53,9 +53,6 @@
   }
 }
 @media (max-width: 700px) {
-  html {
-    scroll-padding-top: 30px;
-  }
   .site-header {
     padding-top: 23px;
     padding-bottom: 23px;

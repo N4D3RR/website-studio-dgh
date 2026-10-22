@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Outlet } from "react-router";
 import { useSectionReveal } from "@/hooks/useSectionReveal.js";
-import { useSmoothCardScroll } from "@/hooks/useSmoothCardScroll.js";
 import DirectionsSection from "@/features/appointments/DirectionsSection.jsx";
 import ContactSection from "@/features/appointments/ContactSection.jsx";
 import LegalDialog from "@/features/legal/LegalDialog.jsx";
@@ -14,7 +13,6 @@ export default function SiteLayout() {
   const [legal, setLegal] = useState(null);
   const mainRef = useRef(null);
   useSectionReveal(mainRef);
-  useSmoothCardScroll(mainRef);
   return (
     <div>
       <a className="skip-link" href="#contenuto">

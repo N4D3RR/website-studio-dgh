@@ -35,7 +35,12 @@ export default function RouteEffects() {
         try {
           document
             .getElementById(decodeURIComponent(hash.slice(1)))
-            ?.scrollIntoView({ behavior: "instant" });
+            ?.scrollIntoView({
+              block: "start",
+              behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                ? "instant"
+                : "smooth",
+            });
         } catch {
           /* Ignore malformed fragment identifiers. */
         }

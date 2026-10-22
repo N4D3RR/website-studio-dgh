@@ -1,14 +1,6 @@
-/* Scorrimento nativo a schede: resta compatibile con touch e tastiera. */
-html:has(.section-frame) {
-  scroll-snap-type: y mandatory;
-  scroll-padding-block: 0;
-  scroll-behavior: smooth;
-}
-
+/* Scorrimento libero: nessun aggancio o avanzamento forzato tra le schede. */
 .section-frame {
   display: block;
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
 }
 
 .section-frame > .section-shell {
@@ -24,24 +16,4 @@ html:has(.section-frame) {
 
 .section-frame .back-link {
   margin-bottom: clamp(24px, 3vw, 40px);
-}
-
-/* Le schede lunghe restano scorribili per intero. */
-.site-header {
-  scroll-snap-align: start;
-}
-.site-footer {
-  scroll-snap-align: end;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html:has(.section-frame) {
-    scroll-behavior: auto;
-    scroll-snap-type: y proximity;
-  }
-}
-
-html.is-card-scrolling:has(.section-frame) {
-  scroll-snap-type: none;
-  scroll-behavior: auto;
 }
