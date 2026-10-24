@@ -131,7 +131,7 @@
   display: none;
 }
 .item-index {
-  font-family: monospace;
+  font-family: inherit;
   font-size: 11px;
   margin-top: 6px;
   color: var(--muted);
@@ -250,7 +250,7 @@
   margin-left: 56px;
 }
 .step-number {
-  font-family: monospace;
+  font-family: inherit;
   color: #41447c;
   font-size: 11px;
   padding-top: 6px;
