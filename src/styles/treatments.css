@@ -7,8 +7,11 @@
   border-top: 1px solid var(--line);
 }
 .pathways {
-  background: var(--blue-soft);
-  color: var(--paper);
+  --muted: #41447c;
+  --line: #2c2f8833;
+  --accent: var(--navy);
+  background: var(--paper);
+  color: var(--navy);
 }
 .pathways-heading {
   margin-bottom: 44px;

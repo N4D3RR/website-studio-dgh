@@ -4,7 +4,7 @@
 }
 
 .section-frame + .section-frame {
-  margin-top: clamp(16px, 2vw, 32px);
+  margin-top: calc(clamp(16px, 2vw, 32px) - 15px);
 }
 
 .section-frame > .section-shell {

@@ -1,10 +1,14 @@
 .directions {
+  --muted: #41447c;
+  --line: #2c2f8833;
+  --accent: var(--navy);
+  color: var(--navy);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
   gap: 9%;
   padding-block: 85px;
-  background: var(--blue-deep);
+  background: #f4cac2;
 }
 .directions address {
   margin-block: 30px 22px;
@@ -58,4 +62,4 @@
 }
 .directions-parking h3 { font-size: 20px; margin-bottom: 8px; }
 .directions-parking p { color: var(--muted); font-size: 14px; }
-.directions-route .directions-parking-inline { color: var(--paper); margin-top: 12px; }
+.directions-route .directions-parking-inline { color: var(--navy); margin-top: 12px; }
