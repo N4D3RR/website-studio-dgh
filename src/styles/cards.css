@@ -10,17 +10,17 @@
 .section-frame > .section-shell {
   width: 100%;
   margin: 0;
-  padding-block: clamp(44px, 5vw, 80px);
-  padding-inline: clamp(28px, 6vw, 112px);
+  padding: clamp(32px, 5vw, 80px);
   text-align: center;
 }
 
-/* Centra le colonne e i testi senza imporre un’altezza alle schede. */
+/* Il padding è uniforme; hero e percorsi mantengono il layout originale. */
+.section-frame > :is(.hero, .pathways) {
+  text-align: left;
+}
+
 .section-frame .hero-copy {
-  grid-column: 1 / -1;
-  width: 100%;
-  max-width: 840px;
-  justify-self: center;
+  padding: 0;
 }
 
 .section-frame :is(h1, h2, h3, p, address) {
@@ -48,7 +48,7 @@
 }
 
 .section-frame .pathway-link {
-  justify-content: center;
+  justify-content: space-between;
   gap: 18px;
 }
 
@@ -74,10 +74,18 @@
 
 .section-frame .hero-baseline {
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 16px 32px;
 }
 
 .section-frame .back-link {
   margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.section-frame :is(.hero, .pathways) :is(h1, h2, h3, p, .visit-link) {
+  margin-inline: 0;
+}
+
+.section-frame .hero-actions {
+  justify-content: flex-start;
 }

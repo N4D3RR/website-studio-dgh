@@ -27,13 +27,13 @@ export function useSectionReveal(ref) {
             continue;
           const panel = entry.target.firstElementChild;
           if (!panel || panel.contains(document.activeElement)) continue;
-          const distance = window.innerWidth <= 700 ? 36 : 64;
+          const distance = window.innerWidth <= 700 ? 72 : 120;
           const animation = panel.animate(
             [
               { transform: `translateY(${distance}px)`, opacity: 0 },
               { transform: "translateY(0)", opacity: 1 },
             ],
-            { duration: 900, easing: "cubic-bezier(.2,.75,.25,1)" },
+            { duration: 1500, easing: "cubic-bezier(.2,.75,.25,1)" },
           );
           animations.add(animation);
           animation.onfinish = animation.oncancel = () =>
