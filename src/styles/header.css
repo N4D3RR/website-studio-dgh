@@ -22,7 +22,7 @@
   display: flex;
   gap: 32px;
   align-items: center;
-  font-size: 13px;
+  font-size: 16px;
 }
 .site-header nav > a:not(.nav-phone) {
   position: relative;
