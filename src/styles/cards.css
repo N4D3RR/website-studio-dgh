@@ -6,12 +6,72 @@
 .section-frame > .section-shell {
   width: 100%;
   margin: 0;
-  padding-block: clamp(36px, 4.5vw, 64px);
+  padding-block: clamp(44px, 5vw, 80px);
+  padding-inline: clamp(28px, 6vw, 112px);
+  text-align: center;
 }
 
-/* L’altezza segue il contenuto; la cornice separa i pannelli colorati. */
-.section-frame > .hero {
-  padding-bottom: 0;
+/* Centra le colonne e i testi senza imporre un’altezza alle schede. */
+.section-frame .hero-copy {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 840px;
+  justify-self: center;
+}
+
+.section-frame :is(h1, h2, h3, p, address) {
+  margin-inline: auto;
+}
+
+.section-frame :is(.hero-actions, .appointment-actions, .treatment-links) {
+  justify-content: center;
+}
+
+.section-frame :is(.contact-phone, .visit-link, .appointment-panel select) {
+  margin-inline: auto;
+}
+
+.section-frame :is(.other-care ul, .hours dd) {
+  text-align: center;
+}
+
+.section-frame .steps li:nth-child(n) {
+  margin-left: 0;
+}
+
+.section-frame :is(.pathway, .care-item summary, .treatment-steps li, .directions-route) {
+  min-width: 0;
+}
+
+.section-frame .pathway-link {
+  justify-content: center;
+  gap: 18px;
+}
+
+.section-frame .faq-list summary {
+  position: relative;
+  display: block;
+  padding-inline: 32px;
+}
+
+.section-frame .faq-list summary span {
+  position: absolute;
+  right: 0;
+  top: 24px;
+}
+
+.section-frame .directions-route-label {
+  justify-content: center;
+}
+
+.section-frame .hours dd {
+  justify-content: center;
+}
+
+.section-frame .hero-baseline {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 32px;
 }
 
 .section-frame .back-link {

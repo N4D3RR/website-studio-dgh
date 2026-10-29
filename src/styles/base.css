@@ -8,7 +8,7 @@
   --navy: #2c2f88;
   --blue-deep: #272a7a;
   --blue-soft: #30338f;
-  --card-frame: clamp(6px, 1vw, 12px);
+  --card-frame: clamp(14px, 2.8vw, 44px);
   --paper: #fffffc;
   --muted: #ddddef;
   --accent: #f4cac2;
