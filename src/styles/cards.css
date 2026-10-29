@@ -3,6 +3,10 @@
   display: block;
 }
 
+.section-frame + .section-frame {
+  margin-top: clamp(16px, 2vw, 32px);
+}
+
 .section-frame > .section-shell {
   width: 100%;
   margin: 0;
